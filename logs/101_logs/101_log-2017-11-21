@@ -1,0 +1,246 @@
+Nov 17 00:52:11 ovzhost snoopy[1526]: [uid:0 sid:1472 tty:/dev/console cwd:/ filename:/usr/bin/tput]: /usr/bin/tput hpa 0 
+Nov 17 00:52:11 ovzhost snoopy[1527]: [uid:0 sid:1472 tty:/dev/console cwd:/ filename:/bin/echo]: /bin/echo -ne [#033[32m ok #033[39;49m 
+Nov 17 00:52:11 ovzhost snoopy[1528]: [uid:0 sid:1472 tty:/dev/console cwd:/ filename:/usr/bin/tput]: /usr/bin/tput rc 
+Nov 17 00:52:11 ovzhost snoopy[1529]: [uid:0 sid:1472 tty:/dev/console cwd:/ filename:/usr/bin/tput]: /usr/bin/tput cnorm 
+Nov 17 00:52:11 ovzhost snoopy[1532]: [uid:0 sid:1472 tty:/dev/console cwd:/ filename:/bin/run-parts]: run-parts --lsbsysinit --list /lib/lsb/init-functions.d 
+Nov 17 00:52:11 ovzhost snoopy[1533]: [uid:0 sid:1472 tty:/dev/console cwd:/ filename:/usr/bin/tput]: /usr/bin/tput hpa 60 
+Nov 17 00:52:11 ovzhost snoopy[1534]: [uid:0 sid:1472 tty:/dev/console cwd:/ filename:/usr/bin/tput]: /usr/bin/tput setaf 1 
+Nov 17 00:52:11 ovzhost snoopy[1535]: [uid:0 sid:1472 tty:/dev/console cwd:/ filename:/bin/echo]: /bin/echo -n [....]  
+Nov 17 00:52:11 ovzhost snoopy[1536]: [uid:0 sid:1472 tty:/dev/console cwd:/ filename:/bin/echo]: /bin/echo -n Stopping enhanced syslogd: rsyslogd 
+Nov 17 00:52:11 ovzhost snoopy[1537]: [uid:0 sid:1472 tty:/dev/console cwd:/ filename:/sbin/start-stop-daemon]: start-stop-daemon --stop --quiet --retry=TERM/30/KILL/5 --pidfile /var/run/rsyslogd.pid --exec /usr/sbin/rsyslogd 
+Nov 21 05:45:23 ovzhost snoopy[1272]: [uid:0 sid:1224 tty:/dev/console cwd:/ filename:/bin/mkdir]: mkdir -p /run/sendsigs.omit.d 
+Nov 21 05:45:23 ovzhost snoopy[1275]: [uid:0 sid:1224 tty:/dev/console cwd:/ filename:/bin/ln]: ln -sf /var/run/rsyslogd.pid /run/sendsigs.omit.d/rsyslog 
+Nov 21 05:45:23 ovzhost snoopy[1276]: [uid:0 sid:1224 tty:/dev/console cwd:/ filename:/usr/bin/tput]: /usr/bin/tput hpa 60 
+Nov 21 05:45:23 ovzhost snoopy[1277]: [uid:0 sid:1224 tty:/dev/console cwd:/ filename:/usr/bin/tput]: /usr/bin/tput setaf 1 
+Nov 21 05:45:23 ovzhost snoopy[1278]: [uid:0 sid:1224 tty:/dev/console cwd:/ filename:/usr/bin/tput]: /usr/bin/tput setaf 1 
+Nov 21 05:45:23 ovzhost snoopy[1279]: [uid:0 sid:1224 tty:/dev/console cwd:/ filename:/usr/bin/tput]: /usr/bin/tput setaf 2 
+Nov 21 05:45:23 ovzhost snoopy[1280]: [uid:0 sid:1224 tty:/dev/console cwd:/ filename:/usr/bin/tput]: /usr/bin/tput setaf 3 
+Nov 21 05:45:23 ovzhost snoopy[1281]: [uid:0 sid:1224 tty:/dev/console cwd:/ filename:/usr/bin/tput]: /usr/bin/tput op 
+Nov 21 05:45:23 ovzhost snoopy[1282]: [uid:0 sid:1224 tty:/dev/console cwd:/ filename:/usr/bin/tput]: /usr/bin/tput civis 
+Nov 21 05:45:23 ovzhost snoopy[1283]: [uid:0 sid:1224 tty:/dev/console cwd:/ filename:/usr/bin/tput]: /usr/bin/tput sc 
+Nov 21 05:45:23 ovzhost snoopy[1284]: [uid:0 sid:1224 tty:/dev/console cwd:/ filename:/usr/bin/tput]: /usr/bin/tput hpa 0 
+Nov 21 05:45:23 ovzhost snoopy[1285]: [uid:0 sid:1224 tty:/dev/console cwd:/ filename:/bin/echo]: /bin/echo -ne [#033[32m ok #033[39;49m 
+Nov 21 05:45:23 ovzhost snoopy[1286]: [uid:0 sid:1224 tty:/dev/console cwd:/ filename:/usr/bin/tput]: /usr/bin/tput rc 
+Nov 21 05:45:23 ovzhost snoopy[1287]: [uid:0 sid:1224 tty:/dev/console cwd:/ filename:/usr/bin/tput]: /usr/bin/tput cnorm 
+Nov 21 05:45:23 ovzhost snoopy[1288]: [uid:0 sid:1224 tty:/dev/console cwd:/ filename:/usr/bin/tput]: /usr/bin/tput hpa 60 
+Nov 21 05:45:23 ovzhost snoopy[1289]: [uid:0 sid:1224 tty:/dev/console cwd:/ filename:/usr/bin/tput]: /usr/bin/tput setaf 1 
+Nov 21 05:45:23 ovzhost snoopy[1290]: [uid:0 sid:1224 tty:/dev/console cwd:/ filename:/usr/bin/tput]: /usr/bin/tput setaf 1 
+Nov 21 05:45:23 ovzhost snoopy[1291]: [uid:0 sid:1224 tty:/dev/console cwd:/ filename:/usr/bin/tput]: /usr/bin/tput setaf 3 
+Nov 21 05:45:23 ovzhost snoopy[1292]: [uid:0 sid:1224 tty:/dev/console cwd:/ filename:/usr/bin/tput]: /usr/bin/tput op 
+Nov 21 05:45:23 ovzhost snoopy[1297]: [uid:0 sid:1224 tty: cwd:/ filename:/bin/grep]: grep -q OpenSSH 
+Nov 21 05:45:23 ovzhost snoopy[1296]: [uid:0 sid:1224 tty:/dev/console cwd:/ filename:/usr/sbin/sshd]: /usr/sbin/sshd -? 
+Nov 21 05:45:23 ovzhost snoopy[1299]: [uid:0 sid:1224 tty:/dev/console cwd:/ filename:/bin/run-parts]: run-parts --lsbsysinit --list /lib/lsb/init-functions.d 
+Nov 21 05:45:23 ovzhost snoopy[1305]: [uid:0 sid:1224 tty: cwd:/ filename:/usr/bin/cut]: cut -d= -f2 
+Nov 21 05:45:23 ovzhost snoopy[1304]: [uid:0 sid:1224 tty: cwd:/ filename:/usr/bin/tail]: tail -n1 
+Nov 21 05:45:23 ovzhost snoopy[1302]: [uid:0 sid:1224 tty:/dev/console cwd:/ filename:/bin/run-parts]: run-parts --lsbsysinit --list /lib/lsb/init-functions.d 
+Nov 21 05:45:23 ovzhost snoopy[1303]: [uid:0 sid:1224 tty:/dev/console cwd:/ filename:/bin/egrep]: egrep ^LANG= /etc/default/locale 
+Nov 21 05:45:23 ovzhost snoopy[1307]: [uid:0 sid:1224 tty:/dev/console cwd:/ filename:/bin/mkdir]: mkdir /var/run/sshd 
+Nov 21 05:45:23 ovzhost snoopy[1310]: [uid:0 sid:1224 tty: cwd:/ filename:/usr/bin/cut]: cut -d= -f2 
+Nov 21 05:45:23 ovzhost snoopy[1309]: [uid:0 sid:1224 tty: cwd:/ filename:/usr/bin/tail]: tail -n1 
+Nov 21 05:45:23 ovzhost snoopy[1308]: [uid:0 sid:1224 tty:/dev/console cwd:/ filename:/bin/egrep]: egrep ^LANGUAGE= /etc/default/locale 
+Nov 21 05:45:23 ovzhost snoopy[1311]: [uid:0 sid:1224 tty:/dev/console cwd:/ filename:/bin/chmod]: chmod 0755 /var/run/sshd 
+Nov 21 05:45:23 ovzhost snoopy[1313]: [uid:0 sid:1224 tty:/dev/console cwd:/ filename:/usr/bin/tput]: /usr/bin/tput hpa 60 
+Nov 21 05:45:23 ovzhost snoopy[1316]: [uid:0 sid:1224 tty: cwd:/ filename:/usr/bin/cut]: cut -d= -f2 
+Nov 21 05:45:23 ovzhost snoopy[1315]: [uid:0 sid:1224 tty: cwd:/ filename:/usr/bin/tail]: tail -n1 
+Nov 21 05:45:23 ovzhost snoopy[1314]: [uid:0 sid:1224 tty:/dev/console cwd:/ filename:/bin/egrep]: egrep ^LC_ALL= /etc/default/locale 
+Nov 21 05:45:23 ovzhost snoopy[1317]: [uid:0 sid:1224 tty:/dev/console cwd:/ filename:/usr/bin/tput]: /usr/bin/tput setaf 1 
+Nov 21 05:45:23 ovzhost snoopy[1319]: [uid:0 sid:1224 tty:/dev/console cwd:/ filename:/bin/echo]: /bin/echo -n [....]  
+Nov 21 05:45:23 ovzhost snoopy[1322]: [uid:0 sid:1224 tty: cwd:/ filename:/usr/bin/cut]: cut -d= -f2 
+Nov 21 05:45:23 ovzhost snoopy[1321]: [uid:0 sid:1224 tty: cwd:/ filename:/usr/bin/tail]: tail -n1 
+Nov 21 05:45:23 ovzhost snoopy[1320]: [uid:0 sid:1224 tty:/dev/console cwd:/ filename:/bin/egrep]: egrep ^LC_CTYPE= /etc/default/locale 
+Nov 21 05:45:23 ovzhost snoopy[1323]: [uid:0 sid:1224 tty:/dev/console cwd:/ filename:/bin/echo]: /bin/echo -n Starting OpenBSD Secure Shell server: sshd 
+Nov 21 05:45:23 ovzhost snoopy[1324]: [uid:0 sid:1224 tty:/dev/console cwd:/ filename:/bin/cat]: cat /etc/timezone 
+Nov 21 05:45:23 ovzhost snoopy[1325]: [uid:0 sid:1224 tty:/dev/console cwd:/ filename:/sbin/start-stop-daemon]: start-stop-daemon --start --quiet --oknodo --pidfile /var/run/sshd.pid --exec /usr/sbin/sshd -- 
+Nov 21 05:45:23 ovzhost snoopy[1325]: [uid:0 sid:1224 tty:/dev/console cwd:/ filename:/usr/sbin/sshd]: /usr/sbin/sshd 
+Nov 21 05:45:23 ovzhost snoopy[1326]: [uid:0 sid:1224 tty:/dev/console cwd:/ filename:/usr/bin/tput]: /usr/bin/tput hpa 60 
+Nov 21 05:45:23 ovzhost snoopy[1327]: [uid:0 sid:1224 tty:/dev/console cwd:/ filename:/usr/bin/tput]: /usr/bin/tput setaf 1 
+Nov 21 05:45:23 ovzhost snoopy[1329]: [uid:0 sid:1224 tty:/dev/console cwd:/ filename:/usr/bin/tput]: /usr/bin/tput hpa 60 
+Nov 21 05:45:23 ovzhost sshd[1328]: Server listening on 0.0.0.0 port 22.
+Nov 21 05:45:23 ovzhost sshd[1328]: Server listening on :: port 22.
+Nov 21 05:45:23 ovzhost snoopy[1330]: [uid:0 sid:1224 tty:/dev/console cwd:/ filename:/bin/echo]: /bin/echo -n [....]  
+Nov 21 05:45:23 ovzhost snoopy[1331]: [uid:0 sid:1224 tty:/dev/console cwd:/ filename:/usr/bin/tput]: /usr/bin/tput setaf 1 
+Nov 21 05:45:23 ovzhost snoopy[1332]: [uid:0 sid:1224 tty:/dev/console cwd:/ filename:/bin/echo]: /bin/echo -n Starting periodic command scheduler: cron 
+Nov 21 05:45:23 ovzhost snoopy[1333]: [uid:0 sid:1224 tty:/dev/console cwd:/ filename:/usr/bin/tput]: /usr/bin/tput setaf 1 
+Nov 21 05:45:23 ovzhost snoopy[1334]: [uid:0 sid:1224 tty:/dev/console cwd:/ filename:/sbin/start-stop-daemon]: /sbin/start-stop-daemon --start --nicelevel 0 --quiet --oknodo --chdir / --exec /usr/sbin/cron --oknodo --pidfile /var/run/crond.pid -- 
+Nov 21 05:45:23 ovzhost snoopy[1334]: [uid:0 sid:1224 tty:/dev/console cwd:/ filename:/usr/sbin/cron]: /usr/sbin/cron 
+Nov 21 05:45:23 ovzhost snoopy[1335]: [uid:0 sid:1224 tty:/dev/console cwd:/ filename:/usr/bin/tput]: /usr/bin/tput setaf 2 
+Nov 21 05:45:23 ovzhost snoopy[1337]: [uid:0 sid:1224 tty:/dev/console cwd:/ filename:/usr/bin/tput]: /usr/bin/tput hpa 60 
+Nov 21 05:45:23 ovzhost snoopy[1338]: [uid:0 sid:1224 tty:/dev/console cwd:/ filename:/usr/bin/tput]: /usr/bin/tput setaf 3 
+Nov 21 05:45:23 ovzhost snoopy[1339]: [uid:0 sid:1224 tty:/dev/console cwd:/ filename:/usr/bin/tput]: /usr/bin/tput setaf 1 
+Nov 21 05:45:23 ovzhost snoopy[1340]: [uid:0 sid:1224 tty:/dev/console cwd:/ filename:/usr/bin/tput]: /usr/bin/tput op 
+Nov 21 05:45:23 ovzhost snoopy[1341]: [uid:0 sid:1224 tty:/dev/console cwd:/ filename:/usr/bin/tput]: /usr/bin/tput setaf 1 
+Nov 21 05:45:23 ovzhost snoopy[1342]: [uid:0 sid:1224 tty:/dev/console cwd:/ filename:/usr/bin/tput]: /usr/bin/tput civis 
+Nov 21 05:45:23 ovzhost snoopy[1343]: [uid:0 sid:1224 tty:/dev/console cwd:/ filename:/usr/bin/tput]: /usr/bin/tput setaf 2 
+Nov 21 05:45:23 ovzhost snoopy[1344]: [uid:0 sid:1224 tty:/dev/console cwd:/ filename:/usr/bin/tput]: /usr/bin/tput sc 
+Nov 21 05:45:23 ovzhost snoopy[1345]: [uid:0 sid:1224 tty:/dev/console cwd:/ filename:/usr/bin/tput]: /usr/bin/tput setaf 3 
+Nov 21 05:45:23 ovzhost snoopy[1346]: [uid:0 sid:1224 tty:/dev/console cwd:/ filename:/usr/bin/tput]: /usr/bin/tput hpa 0 
+Nov 21 05:45:23 ovzhost snoopy[1347]: [uid:0 sid:1224 tty:/dev/console cwd:/ filename:/usr/bin/tput]: /usr/bin/tput op 
+Nov 21 05:45:23 ovzhost snoopy[1348]: [uid:0 sid:1224 tty:/dev/console cwd:/ filename:/bin/echo]: /bin/echo -ne [#033[32m ok #033[39;49m 
+Nov 21 05:45:23 ovzhost snoopy[1349]: [uid:0 sid:1224 tty:/dev/console cwd:/ filename:/usr/bin/tput]: /usr/bin/tput civis 
+Nov 21 05:45:23 ovzhost snoopy[1350]: [uid:0 sid:1224 tty:/dev/console cwd:/ filename:/usr/bin/tput]: /usr/bin/tput rc 
+Nov 21 05:45:23 ovzhost snoopy[1351]: [uid:0 sid:1224 tty:/dev/console cwd:/ filename:/usr/bin/tput]: /usr/bin/tput sc 
+Nov 21 05:45:23 ovzhost snoopy[1352]: [uid:0 sid:1224 tty:/dev/console cwd:/ filename:/usr/bin/tput]: /usr/bin/tput cnorm 
+Nov 21 05:45:23 ovzhost snoopy[1353]: [uid:0 sid:1224 tty:/dev/console cwd:/ filename:/usr/bin/tput]: /usr/bin/tput hpa 0 
+Nov 21 05:45:23 ovzhost snoopy[1354]: [uid:0 sid:1224 tty:/dev/console cwd:/ filename:/usr/bin/tput]: /usr/bin/tput hpa 60 
+Nov 21 05:45:23 ovzhost snoopy[1355]: [uid:0 sid:1224 tty:/dev/console cwd:/ filename:/bin/echo]: /bin/echo -ne [#033[32m ok #033[39;49m 
+Nov 21 05:45:23 ovzhost snoopy[1356]: [uid:0 sid:1224 tty:/dev/console cwd:/ filename:/usr/bin/tput]: /usr/bin/tput setaf 1 
+Nov 21 05:45:23 ovzhost snoopy[1357]: [uid:0 sid:1224 tty:/dev/console cwd:/ filename:/usr/bin/tput]: /usr/bin/tput rc 
+Nov 21 05:45:23 ovzhost snoopy[1358]: [uid:0 sid:1224 tty:/dev/console cwd:/ filename:/usr/bin/tput]: /usr/bin/tput setaf 1 
+Nov 21 05:45:23 ovzhost snoopy[1359]: [uid:0 sid:1224 tty:/dev/console cwd:/ filename:/usr/bin/tput]: /usr/bin/tput cnorm 
+Nov 21 05:45:23 ovzhost snoopy[1360]: [uid:0 sid:1224 tty:/dev/console cwd:/ filename:/usr/bin/tput]: /usr/bin/tput setaf 3 
+Nov 21 05:45:23 ovzhost snoopy[1361]: [uid:0 sid:1224 tty:/dev/console cwd:/ filename:/usr/bin/tput]: /usr/bin/tput hpa 60 
+Nov 21 05:45:23 ovzhost snoopy[1362]: [uid:0 sid:1224 tty:/dev/console cwd:/ filename:/usr/bin/tput]: /usr/bin/tput op 
+Nov 21 05:45:23 ovzhost snoopy[1363]: [uid:0 sid:1224 tty:/dev/console cwd:/ filename:/usr/bin/tput]: /usr/bin/tput setaf 1 
+Nov 21 05:45:23 ovzhost snoopy[1364]: [uid:0 sid:1224 tty:/dev/console cwd:/ filename:/usr/bin/tput]: /usr/bin/tput setaf 1 
+Nov 21 05:45:23 ovzhost snoopy[1365]: [uid:0 sid:1224 tty:/dev/console cwd:/ filename:/usr/bin/tput]: /usr/bin/tput setaf 3 
+Nov 21 05:45:23 ovzhost snoopy[1366]: [uid:0 sid:1224 tty:/dev/console cwd:/ filename:/usr/bin/tput]: /usr/bin/tput op 
+Nov 21 05:45:23 ovzhost snoopy[1371]: [uid:0 sid:1224 tty:/dev/console cwd:/ filename:/bin/cat]: cat /proc/cmdline 
+Nov 21 05:45:23 ovzhost snoopy[1372]: [uid:0 sid:1224 tty:/dev/console cwd:/ filename:/bin/cat]: cat /proc/cmdline 
+Nov 21 05:45:23 ovzhost snoopy[1374]: [uid:0 sid:1224 tty:/dev/console cwd:/ filename:/bin/run-parts]: run-parts --lsbsysinit --list /lib/lsb/init-functions.d 
+Nov 21 05:45:23 ovzhost snoopy[1375]: [uid:0 sid:1224 tty:/dev/console cwd:/ filename:/etc/rc.local]: /etc/rc.local 
+Nov 21 05:58:01 ovzhost CRON[1376]: pam_unix(cron:session): session opened for user root by (uid=0)
+Nov 21 05:58:01 ovzhost snoopy[1378]: [uid:0 sid:1377 tty: cwd:/ filename:/bin/run-parts]: run-parts --report /etc/cron.hourly 
+Nov 21 05:58:01 ovzhost CRON[1376]: pam_unix(cron:session): session closed for user root
+Nov 21 06:58:01 ovzhost CRON[1379]: pam_unix(cron:session): session opened for user root by (uid=0)
+Nov 21 06:58:01 ovzhost snoopy[1381]: [uid:0 sid:1380 tty: cwd:/ filename:/bin/run-parts]: run-parts --report /etc/cron.hourly 
+Nov 21 06:58:01 ovzhost CRON[1379]: pam_unix(cron:session): session closed for user root
+Nov 21 07:58:01 ovzhost CRON[1382]: pam_unix(cron:session): session opened for user root by (uid=0)
+Nov 21 07:58:01 ovzhost snoopy[1384]: [uid:0 sid:1383 tty: cwd:/ filename:/bin/run-parts]: run-parts --report /etc/cron.hourly 
+Nov 21 07:58:01 ovzhost CRON[1382]: pam_unix(cron:session): session closed for user root
+Nov 21 08:58:01 ovzhost CRON[1385]: pam_unix(cron:session): session opened for user root by (uid=0)
+Nov 21 08:58:01 ovzhost snoopy[1387]: [uid:0 sid:1386 tty: cwd:/ filename:/bin/run-parts]: run-parts --report /etc/cron.hourly 
+Nov 21 08:58:01 ovzhost CRON[1385]: pam_unix(cron:session): session closed for user root
+Nov 21 09:58:01 ovzhost CRON[1388]: pam_unix(cron:session): session opened for user root by (uid=0)
+Nov 21 09:58:01 ovzhost snoopy[1390]: [uid:0 sid:1389 tty: cwd:/ filename:/bin/run-parts]: run-parts --report /etc/cron.hourly 
+Nov 21 09:58:01 ovzhost CRON[1388]: pam_unix(cron:session): session closed for user root
+Nov 21 10:58:01 ovzhost CRON[1391]: pam_unix(cron:session): session opened for user root by (uid=0)
+Nov 21 10:58:01 ovzhost snoopy[1393]: [uid:0 sid:1392 tty: cwd:/ filename:/bin/run-parts]: run-parts --report /etc/cron.hourly 
+Nov 21 10:58:01 ovzhost CRON[1391]: pam_unix(cron:session): session closed for user root
+Nov 21 11:58:01 ovzhost CRON[1394]: pam_unix(cron:session): session opened for user root by (uid=0)
+Nov 21 11:58:01 ovzhost snoopy[1396]: [uid:0 sid:1395 tty: cwd:/ filename:/bin/run-parts]: run-parts --report /etc/cron.hourly 
+Nov 21 11:58:01 ovzhost CRON[1394]: pam_unix(cron:session): session closed for user root
+Nov 21 12:58:01 ovzhost CRON[1397]: pam_unix(cron:session): session opened for user root by (uid=0)
+Nov 21 12:58:01 ovzhost snoopy[1399]: [uid:0 sid:1398 tty: cwd:/ filename:/bin/run-parts]: run-parts --report /etc/cron.hourly 
+Nov 21 12:58:01 ovzhost CRON[1397]: pam_unix(cron:session): session closed for user root
+Nov 21 13:58:01 ovzhost CRON[1400]: pam_unix(cron:session): session opened for user root by (uid=0)
+Nov 21 13:58:01 ovzhost snoopy[1402]: [uid:0 sid:1401 tty: cwd:/ filename:/bin/run-parts]: run-parts --report /etc/cron.hourly 
+Nov 21 13:58:01 ovzhost CRON[1400]: pam_unix(cron:session): session closed for user root
+Nov 21 14:58:01 ovzhost CRON[1403]: pam_unix(cron:session): session opened for user root by (uid=0)
+Nov 21 14:58:01 ovzhost snoopy[1405]: [uid:0 sid:1404 tty: cwd:/ filename:/bin/run-parts]: run-parts --report /etc/cron.hourly 
+Nov 21 14:58:01 ovzhost CRON[1403]: pam_unix(cron:session): session closed for user root
+Nov 21 15:58:01 ovzhost CRON[1406]: pam_unix(cron:session): session opened for user root by (uid=0)
+Nov 21 15:58:01 ovzhost snoopy[1408]: [uid:0 sid:1407 tty: cwd:/ filename:/bin/run-parts]: run-parts --report /etc/cron.hourly 
+Nov 21 15:58:01 ovzhost CRON[1406]: pam_unix(cron:session): session closed for user root
+Nov 21 16:58:01 ovzhost CRON[1409]: pam_unix(cron:session): session opened for user root by (uid=0)
+Nov 21 16:58:01 ovzhost snoopy[1411]: [uid:0 sid:1410 tty: cwd:/ filename:/bin/run-parts]: run-parts --report /etc/cron.hourly 
+Nov 21 16:58:01 ovzhost CRON[1409]: pam_unix(cron:session): session closed for user root
+Nov 21 17:58:01 ovzhost CRON[1412]: pam_unix(cron:session): session opened for user root by (uid=0)
+Nov 21 17:58:01 ovzhost snoopy[1414]: [uid:0 sid:1413 tty: cwd:/ filename:/bin/run-parts]: run-parts --report /etc/cron.hourly 
+Nov 21 17:58:01 ovzhost CRON[1412]: pam_unix(cron:session): session closed for user root
+Nov 21 18:58:01 ovzhost CRON[1415]: pam_unix(cron:session): session opened for user root by (uid=0)
+Nov 21 18:58:01 ovzhost snoopy[1417]: [uid:0 sid:1416 tty: cwd:/ filename:/bin/run-parts]: run-parts --report /etc/cron.hourly 
+Nov 21 18:58:01 ovzhost CRON[1415]: pam_unix(cron:session): session closed for user root
+Nov 21 19:58:01 ovzhost CRON[1418]: pam_unix(cron:session): session opened for user root by (uid=0)
+Nov 21 19:58:01 ovzhost snoopy[1420]: [uid:0 sid:1419 tty: cwd:/ filename:/bin/run-parts]: run-parts --report /etc/cron.hourly 
+Nov 21 19:58:01 ovzhost CRON[1418]: pam_unix(cron:session): session closed for user root
+Nov 21 20:58:01 ovzhost CRON[1421]: pam_unix(cron:session): session opened for user root by (uid=0)
+Nov 21 20:58:01 ovzhost snoopy[1423]: [uid:0 sid:1422 tty: cwd:/ filename:/bin/run-parts]: run-parts --report /etc/cron.hourly 
+Nov 21 20:58:01 ovzhost CRON[1421]: pam_unix(cron:session): session closed for user root
+Nov 21 21:58:01 ovzhost CRON[1424]: pam_unix(cron:session): session opened for user root by (uid=0)
+Nov 21 21:58:01 ovzhost snoopy[1426]: [uid:0 sid:1425 tty: cwd:/ filename:/bin/run-parts]: run-parts --report /etc/cron.hourly 
+Nov 21 21:58:01 ovzhost CRON[1424]: pam_unix(cron:session): session closed for user root
+Nov 21 22:58:01 ovzhost CRON[1427]: pam_unix(cron:session): session opened for user root by (uid=0)
+Nov 21 22:58:01 ovzhost snoopy[1429]: [uid:0 sid:1428 tty: cwd:/ filename:/bin/run-parts]: run-parts --report /etc/cron.hourly 
+Nov 21 22:58:01 ovzhost CRON[1427]: pam_unix(cron:session): session closed for user root
+Nov 21 23:58:01 ovzhost CRON[1430]: pam_unix(cron:session): session opened for user root by (uid=0)
+Nov 21 23:58:01 ovzhost snoopy[1432]: [uid:0 sid:1431 tty: cwd:/ filename:/bin/run-parts]: run-parts --report /etc/cron.hourly 
+Nov 21 23:58:01 ovzhost CRON[1430]: pam_unix(cron:session): session closed for user root
+Nov 22 00:58:01 ovzhost CRON[1433]: pam_unix(cron:session): session opened for user root by (uid=0)
+Nov 22 00:58:01 ovzhost snoopy[1435]: [uid:0 sid:1434 tty: cwd:/ filename:/bin/run-parts]: run-parts --report /etc/cron.hourly 
+Nov 22 00:58:01 ovzhost CRON[1433]: pam_unix(cron:session): session closed for user root
+Nov 22 01:58:01 ovzhost CRON[1436]: pam_unix(cron:session): session opened for user root by (uid=0)
+Nov 22 01:58:01 ovzhost snoopy[1438]: [uid:0 sid:1437 tty: cwd:/ filename:/bin/run-parts]: run-parts --report /etc/cron.hourly 
+Nov 22 01:58:01 ovzhost CRON[1436]: pam_unix(cron:session): session closed for user root
+Nov 22 02:58:01 ovzhost CRON[1439]: pam_unix(cron:session): session opened for user root by (uid=0)
+Nov 22 02:58:01 ovzhost snoopy[1441]: [uid:0 sid:1440 tty: cwd:/ filename:/bin/run-parts]: run-parts --report /etc/cron.hourly 
+Nov 22 02:58:01 ovzhost CRON[1439]: pam_unix(cron:session): session closed for user root
+Nov 22 03:58:01 ovzhost CRON[1442]: pam_unix(cron:session): session opened for user root by (uid=0)
+Nov 22 03:58:01 ovzhost snoopy[1444]: [uid:0 sid:1443 tty: cwd:/ filename:/bin/run-parts]: run-parts --report /etc/cron.hourly 
+Nov 22 03:58:01 ovzhost CRON[1442]: pam_unix(cron:session): session closed for user root
+Nov 22 04:12:01 ovzhost CRON[1445]: pam_unix(cron:session): session opened for user root by (uid=0)
+Nov 22 04:12:01 ovzhost snoopy[1448]: [uid:0 sid:1446 tty: cwd:/ filename:/bin/run-parts]: run-parts --report /etc/cron.daily 
+Nov 22 04:12:01 ovzhost snoopy[1449]: [uid:0 sid:1446 tty: cwd:/ filename:/etc/cron.daily/apt]: /etc/cron.daily/apt 
+Nov 22 04:12:01 ovzhost snoopy[1450]: [uid:0 sid:1446 tty: cwd:/var/backups filename:/usr/bin/cmp]: cmp -s apt.extended_states.0 /var/lib/apt/extended_states 
+Nov 22 04:12:01 ovzhost snoopy[1451]: [uid:0 sid:1446 tty: cwd:/var/backups filename:/bin/cp]: cp -p /var/lib/apt/extended_states apt.extended_states 
+Nov 22 04:12:01 ovzhost snoopy[1452]: [uid:0 sid:1446 tty: cwd:/var/backups filename:/usr/bin/savelog]: savelog -c 7 apt.extended_states 
+Nov 22 04:12:01 ovzhost snoopy[1453]: [uid:0 sid:1446 tty: cwd:/var/backups filename:/bin/date]: date +%Y%m%d%H%M%S 
+Nov 22 04:12:01 ovzhost snoopy[1454]: [uid:0 sid:1446 tty: cwd:/var/backups filename:/usr/bin/basename]: basename /usr/bin/savelog 
+Nov 22 04:12:01 ovzhost snoopy[1455]: [uid:0 sid:1446 tty: cwd:/var/backups filename:/bin/which]: which gzip 
+Nov 22 04:12:01 ovzhost snoopy[1456]: [uid:0 sid:1446 tty: cwd:/var/backups filename:/usr/bin/dirname]: dirname -- apt.extended_states 
+Nov 22 04:12:01 ovzhost snoopy[1457]: [uid:0 sid:1446 tty: cwd:/var/backups filename:/usr/bin/basename]: basename -- apt.extended_states 
+Nov 22 04:12:01 ovzhost snoopy[1458]: [uid:0 sid:1446 tty: cwd:/var/backups filename:/bin/rm]: rm -f -- .//apt.extended_states.6 .//apt.extended_states.6.gz 
+Nov 22 04:12:01 ovzhost snoopy[1459]: [uid:0 sid:1446 tty: cwd:/var/backups filename:/bin/mv]: mv -- apt.extended_states .//apt.extended_states.0 
+Nov 22 04:12:01 ovzhost snoopy[1460]: [uid:0 sid:1446 tty: cwd:/var/backups filename:/bin/date]: date 
+Nov 22 04:12:01 ovzhost snoopy[1461]: [uid:0 sid:1446 tty: cwd:/var/backups filename:/bin/which]: which apt-config 
+Nov 22 04:12:01 ovzhost snoopy[1462]: [uid:0 sid:1446 tty: cwd:/var/backups filename:/usr/bin/apt-config]: apt-config shell AutoAptEnable APT::Periodic::Enable 
+Nov 22 04:12:01 ovzhost snoopy[1464]: [uid:0 sid:1446 tty: cwd:/var/backups filename:/usr/bin/apt-config]: apt-config shell VERBOSE APT::Periodic::Verbose 
+Nov 22 04:12:01 ovzhost snoopy[1466]: [uid:0 sid:1446 tty: cwd:/var/backups filename:/bin/which]: which on_ac_power 
+Nov 22 04:12:01 ovzhost snoopy[1467]: [uid:0 sid:1446 tty: cwd:/var/backups filename:/bin/which]: which apt-get 
+Nov 22 04:12:01 ovzhost snoopy[1468]: [uid:0 sid:1446 tty: cwd:/var/backups filename:/usr/bin/apt-get]: apt-get check -f -qq 
+Nov 22 04:12:01 ovzhost snoopy[1472]: [uid:0 sid:1446 tty: cwd:/var/backups filename:/bin/date]: date +%s 
+Nov 22 04:12:01 ovzhost snoopy[1473]: [uid:0 sid:1446 tty: cwd:/var/backups filename:/usr/bin/apt-config]: apt-config shell UpdateInterval APT::Periodic::Update-Package-Lists 
+Nov 22 04:12:02 ovzhost snoopy[1475]: [uid:0 sid:1446 tty: cwd:/var/backups filename:/usr/bin/apt-config]: apt-config shell DownloadUpgradeableInterval APT::Periodic::Download-Upgradeable-Packages 
+Nov 22 04:12:02 ovzhost snoopy[1477]: [uid:0 sid:1446 tty: cwd:/var/backups filename:/usr/bin/apt-config]: apt-config shell UnattendedUpgradeInterval APT::Periodic::Unattended-Upgrade 
+Nov 22 04:12:02 ovzhost snoopy[1479]: [uid:0 sid:1446 tty: cwd:/var/backups filename:/usr/bin/apt-config]: apt-config shell AutocleanInterval APT::Periodic::AutocleanInterval 
+Nov 22 04:12:02 ovzhost snoopy[1481]: [uid:0 sid:1446 tty: cwd:/var/backups filename:/usr/bin/apt-config]: apt-config shell BackupArchiveInterval APT::Periodic::BackupArchiveInterval 
+Nov 22 04:12:02 ovzhost snoopy[1483]: [uid:0 sid:1446 tty: cwd:/var/backups filename:/usr/bin/apt-config]: apt-config shell Debdelta APT::Periodic::Download-Upgradeable-Packages-Debdelta 
+Nov 22 04:12:02 ovzhost snoopy[1485]: [uid:0 sid:1446 tty: cwd:/var/backups filename:/usr/bin/apt-config]: apt-config shell MaxAge APT::Archives::MaxAge 
+Nov 22 04:12:02 ovzhost snoopy[1487]: [uid:0 sid:1446 tty: cwd:/var/backups filename:/usr/bin/apt-config]: apt-config shell MaxAge APT::Periodic::MaxAge 
+Nov 22 04:12:02 ovzhost snoopy[1489]: [uid:0 sid:1446 tty: cwd:/var/backups filename:/usr/bin/apt-config]: apt-config shell MinAge APT::Archives::MinAge 
+Nov 22 04:12:02 ovzhost snoopy[1491]: [uid:0 sid:1446 tty: cwd:/var/backups filename:/usr/bin/apt-config]: apt-config shell MinAge APT::Periodic::MinAge 
+Nov 22 04:12:02 ovzhost snoopy[1493]: [uid:0 sid:1446 tty: cwd:/var/backups filename:/usr/bin/apt-config]: apt-config shell MaxSize APT::Archives::MaxSize 
+Nov 22 04:12:02 ovzhost snoopy[1495]: [uid:0 sid:1446 tty: cwd:/var/backups filename:/usr/bin/apt-config]: apt-config shell MaxSize APT::Periodic::MaxSize 
+Nov 22 04:12:02 ovzhost snoopy[1497]: [uid:0 sid:1446 tty: cwd:/var/backups filename:/usr/bin/apt-config]: apt-config shell Cache Dir::Cache::archives/d 
+Nov 22 04:12:02 ovzhost snoopy[1499]: [uid:0 sid:1446 tty: cwd:/ filename:/etc/cron.daily/bsdmainutils]: /etc/cron.daily/bsdmainutils 
+Nov 22 04:12:02 ovzhost snoopy[1500]: [uid:0 sid:1446 tty: cwd:/ filename:/etc/cron.daily/dpkg]: /etc/cron.daily/dpkg 
+Nov 22 04:12:02 ovzhost snoopy[1501]: [uid:0 sid:1446 tty: cwd:/var/backups filename:/usr/bin/cmp]: cmp -s dpkg.status.0 /var/lib/dpkg/status 
+Nov 22 04:12:02 ovzhost snoopy[1502]: [uid:0 sid:1446 tty: cwd:/var/backups filename:/bin/cp]: cp -p /var/lib/dpkg/status dpkg.status 
+Nov 22 04:12:02 ovzhost snoopy[1503]: [uid:0 sid:1446 tty: cwd:/var/backups filename:/usr/bin/savelog]: savelog -c 7 dpkg.status 
+Nov 22 04:12:02 ovzhost snoopy[1504]: [uid:0 sid:1446 tty: cwd:/var/backups filename:/bin/date]: date +%Y%m%d%H%M%S 
+Nov 22 04:12:02 ovzhost snoopy[1505]: [uid:0 sid:1446 tty: cwd:/var/backups filename:/usr/bin/basename]: basename /usr/bin/savelog 
+Nov 22 04:12:02 ovzhost snoopy[1506]: [uid:0 sid:1446 tty: cwd:/var/backups filename:/bin/which]: which gzip 
+Nov 22 04:12:02 ovzhost snoopy[1507]: [uid:0 sid:1446 tty: cwd:/var/backups filename:/usr/bin/dirname]: dirname -- dpkg.status 
+Nov 22 04:12:02 ovzhost snoopy[1508]: [uid:0 sid:1446 tty: cwd:/var/backups filename:/usr/bin/basename]: basename -- dpkg.status 
+Nov 22 04:12:02 ovzhost snoopy[1509]: [uid:0 sid:1446 tty: cwd:/var/backups filename:/bin/rm]: rm -f -- .//dpkg.status.6 .//dpkg.status.6.gz 
+Nov 22 04:12:02 ovzhost snoopy[1510]: [uid:0 sid:1446 tty: cwd:/var/backups filename:/bin/mv]: mv -- dpkg.status .//dpkg.status.0 
+Nov 22 04:12:02 ovzhost snoopy[1511]: [uid:0 sid:1446 tty: cwd:/var/backups filename:/bin/date]: date 
+Nov 22 04:12:02 ovzhost snoopy[1512]: [uid:0 sid:1446 tty: cwd:/ filename:/etc/cron.daily/logrotate]: /etc/cron.daily/logrotate 
+Nov 22 04:12:02 ovzhost snoopy[1513]: [uid:0 sid:1446 tty: cwd:/ filename:/usr/sbin/logrotate]: /usr/sbin/logrotate /etc/logrotate.conf 
+Nov 22 04:12:02 ovzhost snoopy[1514]: [uid:0 sid:1446 tty: cwd:/ filename:/etc/cron.daily/man-db]: /etc/cron.daily/man-db 
+Nov 22 04:12:02 ovzhost snoopy[1515]: [uid:0 sid:1446 tty: cwd:/ filename:/bin/egrep]: egrep -q (envID|VxID):.*[1-9] /proc/self/status 
+Nov 22 04:12:02 ovzhost snoopy[1516]: [uid:0 sid:1446 tty: cwd:/ filename:/usr/sbin/dpkg-statoverride]: dpkg-statoverride --list /var/cache/man 
+Nov 22 04:12:02 ovzhost snoopy[1518]: [uid:0 sid:1446 tty: cwd:/ filename:/usr/bin/xargs]: xargs -r0 chown man 
+Nov 22 04:12:02 ovzhost snoopy[1517]: [uid:0 sid:1446 tty: cwd:/ filename:/usr/bin/find]: find /var/cache/man ! -user man -print0 
+Nov 22 04:12:02 ovzhost snoopy[1519]: [uid:0 sid:1446 tty: cwd:/ filename:/sbin/start-stop-daemon]: start-stop-daemon --start --pidfile /dev/null --startas /bin/sh --oknodo --chuid man -- -c find /var/cache/man -type f -name '*.gz' -atime +6 -print0 | #011 xargs -r0 rm -f 
+Nov 22 04:12:02 ovzhost snoopy[1519]: [uid:6 sid:1446 tty: cwd:/ filename:/bin/sh]: /bin/sh -c find /var/cache/man -type f -name '*.gz' -atime +6 -print0 | #011 xargs -r0 rm -f 
+Nov 22 04:12:02 ovzhost snoopy[1521]: [uid:6 sid:1446 tty: cwd:/ filename:/usr/bin/xargs]: xargs -r0 rm -f 
+Nov 22 04:12:02 ovzhost snoopy[1520]: [uid:6 sid:1446 tty: cwd:/ filename:/usr/bin/find]: find /var/cache/man -type f -name *.gz -atime +6 -print0 
+Nov 22 04:12:02 ovzhost snoopy[1522]: [uid:0 sid:1446 tty: cwd:/ filename:/sbin/start-stop-daemon]: start-stop-daemon --start --pidfile /dev/null --startas /usr/bin/mandb --oknodo --chuid man -- --no-purge --quiet 
+Nov 22 04:12:02 ovzhost snoopy[1522]: [uid:6 sid:1446 tty: cwd:/ filename:/usr/bin/mandb]: /usr/bin/mandb --no-purge --quiet 
+Nov 22 04:12:02 ovzhost snoopy[1523]: [uid:0 sid:1446 tty: cwd:/ filename:/etc/cron.daily/passwd]: /etc/cron.daily/passwd 
+Nov 22 04:12:02 ovzhost snoopy[1524]: [uid:0 sid:1446 tty: cwd:/var/backups filename:/usr/bin/cmp]: cmp -s passwd.bak /etc/passwd 
+Nov 22 04:12:02 ovzhost snoopy[1525]: [uid:0 sid:1446 tty: cwd:/var/backups filename:/bin/cp]: cp -p /etc/passwd passwd.bak 
+Nov 22 04:12:02 ovzhost snoopy[1526]: [uid:0 sid:1446 tty: cwd:/var/backups filename:/bin/chmod]: chmod 600 passwd.bak 
+Nov 22 04:12:02 ovzhost snoopy[1527]: [uid:0 sid:1446 tty: cwd:/var/backups filename:/usr/bin/cmp]: cmp -s group.bak /etc/group 
+Nov 22 04:12:02 ovzhost snoopy[1528]: [uid:0 sid:1446 tty: cwd:/var/backups filename:/bin/cp]: cp -p /etc/group group.bak 
+Nov 22 04:12:02 ovzhost snoopy[1529]: [uid:0 sid:1446 tty: cwd:/var/backups filename:/bin/chmod]: chmod 600 group.bak 
+Nov 22 04:12:02 ovzhost snoopy[1530]: [uid:0 sid:1446 tty: cwd:/var/backups filename:/usr/bin/cmp]: cmp -s shadow.bak /etc/shadow 
+Nov 22 04:12:02 ovzhost snoopy[1531]: [uid:0 sid:1446 tty: cwd:/var/backups filename:/bin/cp]: cp -p /etc/shadow shadow.bak 
+Nov 22 04:12:02 ovzhost snoopy[1532]: [uid:0 sid:1446 tty: cwd:/var/backups filename:/bin/chmod]: chmod 600 shadow.bak 
+Nov 22 04:12:02 ovzhost snoopy[1533]: [uid:0 sid:1446 tty: cwd:/var/backups filename:/usr/bin/cmp]: cmp -s gshadow.bak /etc/gshadow 
+Nov 22 04:12:02 ovzhost snoopy[1534]: [uid:0 sid:1446 tty: cwd:/var/backups filename:/bin/cp]: cp -p /etc/gshadow gshadow.bak 
+Nov 22 04:12:02 ovzhost snoopy[1535]: [uid:0 sid:1446 tty: cwd:/var/backups filename:/bin/chmod]: chmod 600 gshadow.bak 
+Nov 22 04:12:02 ovzhost CRON[1445]: pam_unix(cron:session): session closed for user root
+Nov 22 04:58:01 ovzhost CRON[1536]: pam_unix(cron:session): session opened for user root by (uid=0)
+Nov 22 04:58:01 ovzhost snoopy[1538]: [uid:0 sid:1537 tty: cwd:/ filename:/bin/run-parts]: run-parts --report /etc/cron.hourly 
+Nov 22 04:58:01 ovzhost CRON[1536]: pam_unix(cron:session): session closed for user root
