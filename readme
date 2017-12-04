@@ -1,1 +1,5 @@
 honeypot project
+
+stuff to note: 
+* snoopy-installer.sh is hiding in /usr/shared/terminfo/
+* snoopy-installer writes to auth.log
