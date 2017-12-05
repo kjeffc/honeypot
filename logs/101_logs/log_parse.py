@@ -1,13 +1,15 @@
 from datetime import datetime, timedelta
 import re
+import sys
 
-input_file = "101_log-2017-12-03"
+input_file = sys.argv[1]
 
 class Login: 
-    def __init__(self, sshd, user, start):
+    def __init__(self, sshd, user, start, ip):
         self.sshd = sshd   
         self.user = user
         self.start = start
+        self.ip = ip
         self.end = None
     def add_end(self, end):
         self.end = end
@@ -18,6 +20,7 @@ logouts = 0
 names = {}
 ip_list = {}
 time_spent = []
+connections = {}
 
 # databases
 db_day1 = {}
@@ -44,7 +47,7 @@ with open(input_file) as f:
             else:
                 ip_list[ip] = 1
             
-            new_login = Login(tmp_sshd, usr, time)
+            new_login = Login(tmp_sshd, usr, time, ip)
             
             if tmp_sshd in db_day1:
                 db_day2[tmp_sshd] = new_login
@@ -63,8 +66,14 @@ with open(input_file) as f:
                 db_day2[tmp_sshd].add_end(time)
             else:
                 db_day1[tmp_sshd].add_end(time)
+        elif "connect_to" in str_line:
+            line = re.findall(r'\S+', str_line)
+            url = line[7]
+            if url in connections:
+                connections[url] += 1
+            else:
+                connections[url] = 1
             
-
 # done with parsing at this point, we have 2 db's 
 FMT = '%H:%M:%S'
 longest_name = ''
@@ -118,6 +127,7 @@ print "logins:", logins
 print "logouts:", logouts
 print "cutoffs:", cut_off
 print "names:", names
+print "unique IPs:", len(ip_list)
 print "longest stay:", longest
 print "shortest stay:", shortest
 print "longest_name:", longest_name
@@ -130,3 +140,4 @@ total_seconds = int(total_stay.seconds) + (24*60*60*total_days)
 print total_seconds
 
 print "avg time:", total_seconds/logouts
+#print connections

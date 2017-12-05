@@ -1,0 +1,13 @@
+File: 103_log-2017-12-02
+logins: 9642
+logouts: 9614
+cutoffs: 28
+names: {'admin': 9633, 'root': 9}
+unique IPs: 188
+longest stay: 6:21:23
+shortest stay: 0:00:00
+longest_name: sshd[1446]:
+shortest_name: sshd[14347]:
+total time spent: 11 days, 13:33:09
+999189
+avg time: 103

@@ -1,0 +1,13 @@
+File: 101_log-2017-12-04
+logins: 15806
+logouts: 15768
+cutoffs: 38
+names: {'admin': 15787, 'test': 4, 'root': 15}
+unique IPs: 305
+longest stay: 9:50:41
+shortest stay: 0:00:00
+longest_name: sshd[5436]:
+shortest_name: sshd[14167]:
+total time spent: 14 days, 20:17:28
+1282648
+avg time: 81

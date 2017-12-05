@@ -38,3 +38,17 @@ shortest_name: sshd[13170]:
 total time spent: 14 days, 9:20:29
 1243229
 avg time: 83
+
+
+File: 103_log-2017-12-04
+logins: 15103
+logouts: 15074
+cutoffs: 29
+names: {'admin': 15089, 'test': 1, 'root': 13}
+longest stay: 9:50:49
+shortest stay: 0:00:00
+longest_name: sshd[4071]:
+shortest_name: sshd[24000]:
+total time spent: 14 days, 5:52:25
+1230745
+avg time: 81
