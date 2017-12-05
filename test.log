@@ -1,0 +1,19 @@
+Nov  7 23:10:21 ovzhost snoopy[2726]: [uid:0 sid:2724 tty:/dev/pts/0 cwd:/ filename:/usr/bin/id]: id -u
+Nov  7 23:10:21 ovzhost snoopy[2728]: [uid:0 sid:2724 tty:/dev/pts/0 cwd:/ filename:/bin/ls]: ls /etc/bash_completion.d
+Nov  7 23:10:21 ovzhost snoopy[2729]: [uid:0 sid:2724 tty:/dev/pts/0 cwd:/ filename:/usr/bin/tput]: tput setaf 1
+Nov  7 23:10:21 ovzhost snoopy[2731]: [uid:0 sid:2724 tty:/dev/pts/0 cwd:/ filename:/usr/bin/dircolors]: dircolors -b
+Nov  7 23:10:21 ovzhost snoopy[2733]: [uid:0 sid:2724 tty:/dev/pts/0 cwd:/ filename:/bin/ls]: ls /etc/bash_completion.d
+Nov  7 23:10:21 ovzhost snoopy[2734]: [uid:0 sid:2724 tty:/dev/pts/0 cwd:/ filename:/usr/bin/mesg]: mesg n
+Nov  7 23:10:23 ovzhost snoopy[2735]: [uid:0 sid:2724 tty:/dev/pts/0 cwd:/ filename:/bin/ls]: ls --color=auto
+Nov  7 23:10:30 ovzhost snoopy[2743]: [uid:0 sid:2724 tty:/dev/pts/0 cwd:/var/log filename:/bin/ls]: ls --color=auto
+Nov  7 23:10:33 ovzhost snoopy[2746]: [uid:0 sid:2724 tty:/dev/pts/0 cwd:/var/log filename:/bin/cat]: cat auth.log
+Nov  7 23:11:01 ovzhost snoopy[2747]: [uid:0 sid:2724 tty:/dev/pts/0 cwd:/var/log filename:/usr/bin/clear]: clear
+Nov  7 23:11:02 ovzhost snoopy[2748]: [uid:0 sid:2724 tty:/dev/pts/0 cwd:/var/log filename:/bin/ls]: ls --color=auto
+Nov  7 23:17:17 ovzhost snoopy[2752]: [uid:0 sid:2750 tty:/dev/pts/0 cwd:/ filename:/usr/bin/id]: id -u
+Nov  7 23:17:17 ovzhost snoopy[2754]: [uid:0 sid:2750 tty:/dev/pts/0 cwd:/ filename:/bin/ls]: ls /etc/bash_completion.d
+Nov  7 23:17:17 ovzhost snoopy[2755]: [uid:0 sid:2750 tty:/dev/pts/0 cwd:/ filename:/usr/bin/tput]: tput setaf 1
+Nov  7 23:17:17 ovzhost snoopy[2757]: [uid:0 sid:2750 tty:/dev/pts/0 cwd:/ filename:/usr/bin/dircolors]: dircolors -b
+Nov  7 23:17:17 ovzhost snoopy[2759]: [uid:0 sid:2750 tty:/dev/pts/0 cwd:/ filename:/bin/ls]: ls /etc/bash_completion.d
+Nov  7 23:17:17 ovzhost snoopy[2760]: [uid:0 sid:2750 tty:/dev/pts/0 cwd:/ filename:/usr/bin/mesg]: mesg n
+Nov  7 23:17:17 ovzhost snoopy[2761]: [uid:0 sid:2750 tty:/dev/pts/0 cwd:/ filename:/bin/ls]: ls --color=auto
+Nov  7 23:17:24 ovzhost snoopy[2770]: [uid:0 sid:2750 tty:/dev/pts/0 cwd:/var/log filename:/bin/cat]: cat auth.log
