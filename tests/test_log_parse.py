@@ -1,7 +1,7 @@
 from datetime import datetime
 import re
 
-input_file = "101_log-2017-12-01"
+input_file = "test_log"
 
 class Login: 
     def __init__(self, sshd, user, start):
@@ -55,6 +55,8 @@ with open(input_file) as f:
             day = line[1]
             time = line[2]
             tmp_sshd = line[4]
+            print "DEBUG:", time
+            print "DEBUG:", line
 
             logouts += 1
             line = re.findall(r'\S+', str_line)
@@ -78,4 +80,4 @@ for login in db_day1:
 print "logins:", logins
 print "logouts:", logouts
 print "names:", names
-print "time_spent:", time_spent[1]
+print "time_spent:", time_spent[0]

@@ -1,0 +1,11 @@
+Dec  1 15:21:49 ovzhost sshd[13071]: Accepted password for admin from 204.12.219.204 port 1637 ssh2
+Dec  1 15:21:49 ovzhost sshd[13071]: pam_unix(sshd:session): session opened for user admin by (uid=0)
+Dec  1 15:21:53 ovzhost snoopy[13080]: [uid:0 sid:13080 tty: cwd:/ filename:/usr/sbin/sshd]: /usr/sbin/sshd -R 
+Dec  1 15:21:55 ovzhost snoopy[13082]: [uid:0 sid:13082 tty: cwd:/ filename:/usr/sbin/sshd]: /usr/sbin/sshd -R 
+Dec  1 15:21:55 ovzhost snoopy[13084]: [uid:0 sid:13084 tty: cwd:/ filename:/usr/sbin/sshd]: /usr/sbin/sshd -R 
+Dec  1 15:21:59 ovzhost sshd[13058]: error: connect_to 216.58.205.110 port 80: failed.
+Dec  1 15:21:59 ovzhost sshd[13058]: channel_by_id: 0: bad id: channel free
+Dec  1 15:21:59 ovzhost sshd[13058]: Disconnecting: Received oclose for nonexistent channel 0.
+Dec  1 15:21:59 ovzhost snoopy[13086]: [uid:0 sid:13086 tty: cwd:/ filename:/usr/sbin/sshd]: /usr/sbin/sshd -R 
+Dec  1 15:22:00 ovzhost sshd[13071]: pam_unix(sshd:session): session closed for user admin
+Dec  1 15:22:03 ovzhost snoopy[13088]: [uid:0 sid:13088 tty: cwd:/ filename:/usr/sbin/sshd]: /usr/sbin/sshd -R 
