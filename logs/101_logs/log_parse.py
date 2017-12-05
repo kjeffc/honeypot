@@ -1,4 +1,4 @@
-from datetime import datetime
+from datetime import datetime, timedelta
 import re
 
 input_file = "101_log-2017-12-01"
@@ -66,16 +66,69 @@ with open(input_file) as f:
             
 
 # done with parsing at this point, we have 2 db's 
+FMT = '%H:%M:%S'
+longest_name = ''
+shortest_name = ''
+longest = timedelta.min
+shortest = timedelta.max
+total_stay = timedelta(days=0, seconds=0, microseconds=0, milliseconds=0, minutes=0, hours=0, weeks=0)
+cut_off = 0
+
 for login in db_day1:
-    FMT = '%H:%M:%S'
-    print db_day1[login].start
     if db_day1[login].end:
-        print db_day1[login].end
         tdelta = datetime.strptime(db_day1[login].end, FMT) - datetime.strptime(db_day1[login].start, FMT)
-        print tdelta
+        if tdelta.days < 0:
+            change = timedelta(days=1)
+            tdelta = tdelta + change
+
         time_spent.append(tdelta)
+        
+        if (tdelta > longest):
+            longest_name = login
+            longest = tdelta
+        elif (tdelta < shortest):
+            shortest_name = login
+            shortest = tdelta
+    else:
+        cut_off += 1
+
+for login in db_day2:
+    if db_day2[login].end:
+        tdelta = datetime.strptime(db_day2[login].end, FMT) - datetime.strptime(db_day2[login].start, FMT)
+        if tdelta.days < 0:
+            change = timedelta(days=1)
+            tdelta = tdelta + change
+
+        time_spent.append(tdelta)
+        
+        if (tdelta > longest):
+            longest_name = login
+            longest = tdelta
+        elif (tdelta < shortest):
+            shortest_name = login
+            shortest = tdelta
+    else:
+        cut_off += 1
+    
+for times in time_spent:
+    total_stay += times
+    
 
 print "logins:", logins
 print "logouts:", logouts
+print "cutoffs:", cut_off
 print "names:", names
-print "time_spent:", time_spent[1]
+print "longest stay:", longest
+print "shortest stay:", shortest
+print "longest_name:", longest_name
+print "shortest_name:", shortest_name
+print "total time spent:", total_stay
+
+print "DEBUG:", total_stay.days
+print "DEBUG:", total_stay.seconds
+total_days = total_stay.days
+total_days = int(total_days)
+total_seconds = int(total_stay.seconds) + (24*60*60*total_days)
+print total_seconds
+
+print "avg time:", total_seconds/logouts
