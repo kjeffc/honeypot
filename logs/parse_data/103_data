@@ -1,0 +1,40 @@
+File: 103_log-2017-12-01
+logins: 10812
+logouts: 10775
+cutoffs: 37
+names: {'admin': 10799, 'root': 13}
+longest stay: 5:41:40
+shortest stay: 0:00:00
+longest_name: sshd[1379]:
+shortest_name: sshd[29997]:
+total time spent: 10 days, 10:38:49
+902329
+avg time: 83
+
+
+File: 103_log-2017-12-02
+logins: 9642
+logouts: 9614
+cutoffs: 28
+names: {'admin': 9633, 'root': 9}
+longest stay: 6:21:23
+shortest stay: 0:00:00
+longest_name: sshd[1446]:
+shortest_name: sshd[14347]:
+total time spent: 11 days, 13:33:09
+999189
+avg time: 103
+
+
+File: 103_log-2017-12-03
+logins: 14929
+logouts: 14892
+cutoffs: 37
+names: {'admin': 14918, 'root': 11}
+longest stay: 9:41:11
+shortest stay: 0:00:00
+longest_name: sshd[1378]:
+shortest_name: sshd[13170]:
+total time spent: 14 days, 9:20:29
+1243229
+avg time: 83
