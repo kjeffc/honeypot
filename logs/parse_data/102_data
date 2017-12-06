@@ -1,15 +1,22 @@
+Appeared one time: 273
+Appeared two times: 94
+Appeared three times: 98
+Appeared four times: 151
+
+
 File: 102_log-2017-12-01
 logins: 9193
 logouts: 9171
 cutoffs: 22
 names: {'admin': 7048, 'root': 2145}
+unique IPs: 342
 longest stay: 4:02:16
 shortest stay: 0:00:00
 longest_name: sshd[6707]:
 shortest_name: sshd[16009]:
 total time spent: 3 days, 23:23:08
-343388
 avg time: 37
+total rm -rf's: 0
 
 
 File: 102_log-2017-12-02
@@ -17,13 +24,14 @@ logins: 10275
 logouts: 10249
 cutoffs: 26
 names: {'admin': 6831, 'root': 3444}
+unique IPs: 324
 longest stay: 9:02:40
 shortest stay: 0:00:00
 longest_name: sshd[21458]:
 shortest_name: sshd[3685]:
 total time spent: 4 days, 17:44:51
-409491
 avg time: 39
+total rm -rf's: 16
 
 
 File: 102_log-2017-12-03
@@ -31,13 +39,14 @@ logins: 14977
 logouts: 14937
 cutoffs: 40
 names: {'admin': 10240, 'root': 4737}
+unique IPs: 347
 longest stay: 6:36:27
 shortest stay: 0:00:00
 longest_name: sshd[19289]:
 shortest_name: sshd[14167]:
 total time spent: 8 days, 2:09:48
-698988
 avg time: 46
+total rm -rf's: 0
 
 
 File: 102_log-2017-12-04
@@ -45,10 +54,11 @@ logins: 15081
 logouts: 15036
 cutoffs: 45
 names: {'admin': 10561, 'test': 1, 'root': 4519}
+unique IPs: 346
 longest stay: 9:50:42
 shortest stay: 0:00:00
 longest_name: sshd[4185]:
 shortest_name: sshd[13055]:
 total time spent: 9 days, 8:55:09
-809709
 avg time: 53
+total rm -rf's: 0

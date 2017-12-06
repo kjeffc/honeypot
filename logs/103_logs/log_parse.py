@@ -21,6 +21,7 @@ names = {}
 ip_list = {}
 time_spent = []
 connections = {}
+rmrf = 0
 
 # databases
 db_day1 = {}
@@ -73,6 +74,8 @@ with open(input_file) as f:
                 connections[url] += 1
             else:
                 connections[url] = 1
+        elif "rm -rf" in str_line:
+            rmrf += 1
             
 # done with parsing at this point, we have 2 db's 
 FMT = '%H:%M:%S'
@@ -133,11 +136,11 @@ print "shortest stay:", shortest
 print "longest_name:", longest_name
 print "shortest_name:", shortest_name
 print "total time spent:", total_stay
-
 total_days = total_stay.days
 total_days = int(total_days)
 total_seconds = int(total_stay.seconds) + (24*60*60*total_days)
-print total_seconds
 
 print "avg time:", total_seconds/logouts
+print "total rm -rf's:", rmrf
+
 #print connections
