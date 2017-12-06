@@ -16,7 +16,8 @@ shortest stay: 0:00:00
 longest_name: sshd[1379]:
 shortest_name: sshd[29997]:
 total time spent: 10 days, 10:38:49
-avg time: 83
+average time: 83
+median time: 20
 total rm -rf's: 0
 
 
@@ -31,7 +32,8 @@ shortest stay: 0:00:00
 longest_name: sshd[1446]:
 shortest_name: sshd[14347]:
 total time spent: 11 days, 13:33:09
-avg time: 103
+average time: 103
+median time: 22
 total rm -rf's: 0
 
 
@@ -46,7 +48,8 @@ shortest stay: 0:00:00
 longest_name: sshd[1378]:
 shortest_name: sshd[13170]:
 total time spent: 14 days, 9:20:29
-avg time: 83
+average time: 83
+median time: 20
 total rm -rf's: 0
 
 
@@ -61,5 +64,6 @@ shortest stay: 0:00:00
 longest_name: sshd[4071]:
 shortest_name: sshd[24000]:
 total time spent: 14 days, 5:52:25
-avg time: 81
+average time: 81
+median time: 21
 total rm -rf's: 0

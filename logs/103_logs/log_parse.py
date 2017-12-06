@@ -121,10 +121,26 @@ for login in db_day2:
             shortest = tdelta
     else:
         cut_off += 1
-    
+
+
+# getting total amount of time spent    
 for times in time_spent:
     total_stay += times
     
+total_days = total_stay.days
+total_days = int(total_days)
+total_seconds = int(total_stay.seconds) + (24*60*60*total_days)
+
+# getting median
+time_in_seconds = []
+test_total = 0
+for times in time_spent:
+    seconds = int(times.seconds)
+    time_in_seconds.append(seconds)
+
+time_in_seconds = sorted(time_in_seconds)
+median = time_in_seconds[len(time_in_seconds)//2]
+
 print "File:", input_file
 print "logins:", logins
 print "logouts:", logouts
@@ -136,11 +152,10 @@ print "shortest stay:", shortest
 print "longest_name:", longest_name
 print "shortest_name:", shortest_name
 print "total time spent:", total_stay
-total_days = total_stay.days
-total_days = int(total_days)
-total_seconds = int(total_stay.seconds) + (24*60*60*total_days)
 
-print "avg time:", total_seconds/logouts
+print "average time:", total_seconds/logouts
+print "median time:", median
+
 print "total rm -rf's:", rmrf
 
 #print connections

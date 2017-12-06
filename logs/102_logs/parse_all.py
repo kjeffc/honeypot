@@ -54,6 +54,7 @@ for ips in ip_list:
     else:
         print "I fucked up"
     
+print "Number of IPs that appeared on multiple days:"
 print "Appeared one time:", len(once)
 print "Appeared two times:", len(twice)
 print "Appeared three times:", len(thrice)
