@@ -1,6 +1,7 @@
 from datetime import datetime, timedelta
 import re
 import sys
+import matplotlib.pylab as plt
 
 input_file = sys.argv[1]
 
@@ -141,21 +142,34 @@ for times in time_spent:
 time_in_seconds = sorted(time_in_seconds)
 median = time_in_seconds[len(time_in_seconds)//2]
 
-print "File:", input_file
-print "logins:", logins
-print "logouts:", logouts
-print "cutoffs:", cut_off
-print "names:", names
-print "unique IPs:", len(ip_list)
-print "longest stay:", longest
-print "shortest stay:", shortest
-print "longest_name:", longest_name
-print "shortest_name:", shortest_name
-print "total time spent:", total_stay
+#scatterplot = {}
+#for times in time_in_seconds:
+#    if times in scatterplot:
+#        scatterplot[times] += 1
+#    else:
+#        scatterplot[times] = 1
+        
+#print scatterplot    
 
-print "average time:", total_seconds/logouts
-print "median time:", median
+#x, y = scatterplot.keys(), scatterplot.values()
+#plt.plot(x, y)
+#plt.show()
 
-print "total rm -rf's:", rmrf
+#print "File:", input_file
+#print "logins:", logins
+#print "logouts:", logouts
+#print "cutoffs:", cut_off
+#print "names:", names
+#print "unique IPs:", len(ip_list)
+#print "longest stay:", longest
+#print "shortest stay:", shortest
+#print "longest_name:", longest_name
+#print "shortest_name:", shortest_name
+#print "total time spent:", total_stay
 
-#print connections
+#print "average time:", total_seconds/logouts
+#print "median time:", median
+
+#print "total rm -rf's:", rmrf
+
+print connections
